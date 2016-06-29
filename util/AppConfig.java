@@ -7,8 +7,8 @@ import org.springframework.data.mongodb.repository.config.EnableMongoRepositorie
 
 
 @Configuration
-@ComponentScan({ "br.com.caronex.util", "br.com.caronex.repository"})
-@EnableMongoRepositories("br.com.caronex.repository")
+@ComponentScan({ "main.java.br.com.caronex.util", "main.java.br.com.caronex.repository"})
+@EnableMongoRepositories("main.java.br.com.caronex.repository")
 @Import({ MongoConfig.class })
 public class AppConfig {
 
