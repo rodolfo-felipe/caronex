@@ -1,6 +1,6 @@
 package main.java.br.com.caronex.service;
 
-import java.awt.List;
+import java.util.List;
 
 import main.java.br.com.caronex.domain.Avaliacao;
 import main.java.br.com.caronex.domain.Carona;
